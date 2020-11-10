@@ -13,6 +13,6 @@ gen_topology_forever () {
 
 gen_topology_forever &
 
-PORT=${1:-"80"}
+PORT=${1:-"8080"}
 echo "Starting HTTP server on port $PORT"
 python -m http.server $PORT
